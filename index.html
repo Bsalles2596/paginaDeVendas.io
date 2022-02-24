@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Teste - Landing Page</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            
+            <div class="cabecalho">
+                <h3>uma seleção de produtos</h3>
+                <h1>especial para voçe</h1>
+                <h5 id="">todos produtos dessa lista foram selecionados a partir da sua navegação aproveite.
+                </h5>
+            </div>
+            <nav >
+                <ul class="paginas-menu">
+                    <button>
+                        <a href="#">Conheça a Linx</a>
+                    </button>
+                    <button>
+                        <a href="#">Ajude o algoritimo</a>
+                    </button>
+                    <button>
+                        <a href="#">Seus produtos</a>
+                    </button>
+                    <button>
+                        <a href="#">Compartilhe</a>
+                    </button>
+                </ul>
+            </nav>
+        </div>
+    </header>   
+    <section class="informacoes">
+        <div class="container">
+            <section class="content">
+                <article class="artigo">
+                    <h3>Ajude o algorítimo a ser mais certeiro</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.Pellentesque ultricies tellus nec mi porta convallis sollicitudin eu urna. Mauris rhoncus erat sed interdum dignissim. Suspendisse semper pretium consectetur. Praesent bibendum arcu risus, sit amet iaculis ex tempus quis. Cras et erat ut tellus vulputate tincidunt. Aenean lacinia euismod augue vel egestas. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vestibulum vel urna tortor. Vivamus et arcu non felis tristique eleifend.
+                    </p>
+                    <p>
+                        Morbi eu condimentum urna. Curabitur eu magna eget turpis condimentum ultrices. Suspendisse quis lorem ultricies, pulvinar purus sed, egestas erat. Etiam ultricies a ante vehicula pharetra. Quisque ut neque mattis, consequat velit ut, ultrices orci. Nulla varius elementum erat vel pharetra. Aenean sit amet nisi diam. Morbi viverra, magna ac luctus commodo, odio ante suscipit libero, at mattis augue est vel metus.
+                    </p>
+                    </article>
+                    <form id="formulario" class="formulario" action="gravarCadastro.html">
+                        <div class="cadastro">
+                            <label>
+                                Seu nome:
+                            </label>
+                            <input id="name" type="text">
+                            <label>
+                                 E-mail:
+                            </label>     
+                            <input id="email" type="email">
+                            <label>
+                                CPF:
+                            </label>    
+                            <input id="cpf" name="cpf" type="text">
+                            <div class="inpuSexo">
+                            <label>
+                                <input type="radio" name="m" id="sexo">
+                                Maculino
+                            </label>
+                            <label>
+                                <input type="radio" name="f" id="sexo">
+                                Feminino
+                            </label>
+                            <span class="err"></span>
+                        </div>
+                        <button class="btn-cadastro" type="submit">
+                            Enviar
+                        </button>
+                    </div>     
+                </form>
+                <div class="enviado">Enviado com sucesso!</div>
+            </section>  
+        </div>
+    </section> 
+    <section class="departDeProdutos">
+        <div class="container">
+            <fieldset class="selecao">
+                 <legend><h4>Sua seleção especial</h4></legend>
+            </fieldset>
+        <section class="galeria">
+           <div class="produtos">
+              <div class="produto">
+                  
+              </div>
+           </div>
+           
+        </section>
+            <div class="next">  
+                <button class="btn-next" id="nextProdutos">
+                    <a id="nexProduto" href="">Ainda mais produtos aqui!</a>
+                </button>  
+            </div>
+        </div>  
+    </section>
+    <section class="novidades">
+        <div class="container">
+            <fieldset class="selecao">
+                    <legend><h4>Compartilhe a Novidade</h4></legend>
+                    <p>Quer que seus amigos ganhem a lista personalizada deles? Preencha agora!</p>
+            </fieldset>
+        </div>
+    </section>    
+    <section class="cadastroAmigo">
+        <div class="container">
+            <form id="formCadastro" class="form" action="gravarDados">
+                <div class="input">
+                    <label>Nome amigo:
+                    </label>
+                    <input id="nameAmigo" type="text" placeholder="nome">
+                    <span id="err"></span>
+                </div>
+                <div class="input">
+                    <label>E-mail:</label>
+                    <input id="emailAmigo" type="email" placeholder="E-mail">
+                    <span id="err"></span>
+                </div>
+                <div class="button">
+                    <button id="btn-cadastroAmigo" type="submit">
+                        Enviar agora
+                    </button>
+                </div>
+            </form>
+        </div>
+        <div class="compartilhado">Compartilhado com sucesso</div>
+    </section> 
+    <footer class="footer">
+        <h4>Testando suas habilidades em HTML, CSS e JS.</h4>
+        <p>Linx Impulse</p>
+        <span>2019</span>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
